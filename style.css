@@ -4,6 +4,7 @@
 
 :root {
   --background: #02050e;
+  --primary: #272d37;
   /*text colors*/
   --text-gray: #adb9c7;
 }
@@ -72,4 +73,78 @@ form i {
 
 body {
   background: var(--background);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*Hero*/
+#hero {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--text-gray);
+}
+
+.hero-info a {
+  background: var(--primary);
+  color: var(--text-gray);
+  border-radius: 10px;
+  padding: 10px 25px;
+  width: 120px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.hero-info p {
+  font-size: 14px;
+  width: 800;
+  color: var(--text-gray);
+}
+
+.hero-card {
+  background: var(--primary);
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+#info p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info-cards-container {
+  background: rgb(0, 0, 0);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  border-radius: 10px;
 }
