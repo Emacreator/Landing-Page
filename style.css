@@ -85,7 +85,7 @@ main {
 
 /*Hero*/
 #hero {
-  max-width: 800px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
